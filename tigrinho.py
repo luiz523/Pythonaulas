@@ -40,8 +40,8 @@ aposta = float(input("Gostaria de apostar quanto? "))
 giros = int(input("Ira girar quantas vezes? "))
 print("-"*40)
 while giros >= 0:
-    time.sleep(2)
-    os.system("color 0")
+    time.sleep(1)
+    os.system("color 7")
     if bananas == 0:
         print("acabou suas bananas coloque mais :)")
         break
@@ -102,7 +102,7 @@ jgs  /__&gt;     '.       \_ _ _/   ,  '--.
              '.,___.'                    
     """)
     print("-"*40)
-    time.sleep(2)
+    time.sleep(1)
     segundo = random.randint(1,3)
     if segundo == 1:
         print(r"""
@@ -159,7 +159,7 @@ jgs  /__&gt;     '.       \_ _ _/   ,  '--.
              '.,___.'                    
     """)
     print("-"*40)
-    time.sleep(4)
+    time.sleep(1)
     terceiro = random.randint(1,3)
     if terceiro == 1:
         print(r"""
@@ -216,7 +216,7 @@ jgs  /__&gt;     '.       \_ _ _/   ,  '--.
              '.,___.'                    
         """)
     print("-"*40)
-    time.sleep(1)
+    time.sleep(2)
     if terceiro == segundo and segundo == primeiro:
         print("Ganhou")
         bananas = bananas + (0.2*aposta)
