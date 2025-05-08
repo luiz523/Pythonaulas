@@ -3,7 +3,6 @@ import time
 import os
 print("-"*40)
 print("BANANA BET")
-
 print("-"*40)
 #saca
 #deposita
@@ -42,6 +41,7 @@ giros = int(input("Ira girar quantas vezes? "))
 print("-"*40)
 while giros >= 0:
     time.sleep(2)
+    os.system("color 0")
     if bananas == 0:
         print("acabou suas bananas coloque mais :)")
         break
@@ -221,7 +221,7 @@ jgs  /__&gt;     '.       \_ _ _/   ,  '--.
         print("Ganhou")
         bananas = bananas + (0.2*aposta)
         print(f"{bananas}")
-        os.system("color ")
+        os.system("color 2")
         time.sleep(4)
     else:
         print("Perdeu")
