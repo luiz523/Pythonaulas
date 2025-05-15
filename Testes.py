@@ -24,7 +24,7 @@ elif dinheiro == ("dinheiro"):
  real = int(input("vai pagar com nota de quanto "))
  troco = real - valor
  if troco >= 0:
-  float(print(f"você tem que me devolver {troco}"))
+  float(print(f"seu troco é de R$ {troco}"))
 senhas = input("obrigado pela compra ")
 if senhas == ("mostrar"):
  print(f"cretido:{credito}, debito:{debrito}") 
